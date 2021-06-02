@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C96500A266728D900B7E10B /* ProjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C965009266728D900B7E10B /* ProjectsView.swift */; };
 		CA6EC17F611282FFB92C8BD8 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6ECDA1F10D7586C284461E /* DataController.swift */; };
 		CA6EC2D7FFD82E58F5B3B08E /* SwiftRocksFolio.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CA6EC0553B890B597A903A53 /* SwiftRocksFolio.xcdatamodeld */; };
 		CA6EC83D1A63B83D7CE9B166 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6ECD85D8730FF4364E2B34 /* AppDelegate.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C965009266728D900B7E10B /* ProjectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsView.swift; sourceTree = "<group>"; };
 		CA6EC10B06B2DBAF09FD8C23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CA6EC4BE5CF3DCE1EF7063A4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CA6EC4DA758C763E68D42193 /* SwiftRocksFolio.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SwiftRocksFolio.xcdatamodel; sourceTree = "<group>"; };
@@ -53,6 +55,7 @@
 				CA6ECBDB64E38FEA9E22A215 /* ContentView.swift */,
 				CA6ECD271E64E4A0A4A5187C /* Preview Content */,
 				CA6ECDA1F10D7586C284461E /* DataController.swift */,
+				2C965009266728D900B7E10B /* ProjectsView.swift */,
 			);
 			path = SwiftRocksFolio;
 			sourceTree = "<group>";
@@ -146,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C96500A266728D900B7E10B /* ProjectsView.swift in Sources */,
 				CA6EC83D1A63B83D7CE9B166 /* AppDelegate.swift in Sources */,
 				CA6EC2D7FFD82E58F5B3B08E /* SwiftRocksFolio.xcdatamodeld in Sources */,
 				CA6ECCE1CD948BECCAC28DF9 /* SceneDelegate.swift in Sources */,
