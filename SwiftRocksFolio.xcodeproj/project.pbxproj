@@ -1,0 +1,351 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA6EC17F611282FFB92C8BD8 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6ECDA1F10D7586C284461E /* DataController.swift */; };
+		CA6EC2D7FFD82E58F5B3B08E /* SwiftRocksFolio.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CA6EC0553B890B597A903A53 /* SwiftRocksFolio.xcdatamodeld */; };
+		CA6EC83D1A63B83D7CE9B166 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6ECD85D8730FF4364E2B34 /* AppDelegate.swift */; };
+		CA6EC95ECC75B96565628F1F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6ECBDB64E38FEA9E22A215 /* ContentView.swift */; };
+		CA6EC9FA3E1D7AD71267FF7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA6ECC404750738166F66376 /* LaunchScreen.storyboard */; };
+		CA6ECCC5ECB673097E10C011 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA6EC753420D63F5D54E22B2 /* Assets.xcassets */; };
+		CA6ECCE1CD948BECCAC28DF9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6EC93113E6003D06588C22 /* SceneDelegate.swift */; };
+		CA6ECE96BA0A4BA9685AE1AE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA6EC4BE5CF3DCE1EF7063A4 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CA6EC10B06B2DBAF09FD8C23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA6EC4BE5CF3DCE1EF7063A4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CA6EC4DA758C763E68D42193 /* SwiftRocksFolio.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SwiftRocksFolio.xcdatamodel; sourceTree = "<group>"; };
+		CA6EC753420D63F5D54E22B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA6EC93113E6003D06588C22 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CA6EC9B34F2B7F1DCC7D0662 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		CA6ECBDB64E38FEA9E22A215 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CA6ECC96DBED1EFE7400A2D9 /* SwiftRocksFolio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftRocksFolio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA6ECD85D8730FF4364E2B34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CA6ECDA1F10D7586C284461E /* DataController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA6EC43E478745836D52B065 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA6EC47D5D7703E0E4AE294C /* SwiftRocksFolio */ = {
+			isa = PBXGroup;
+			children = (
+				CA6EC9B34F2B7F1DCC7D0662 /* Info.plist */,
+				CA6EC753420D63F5D54E22B2 /* Assets.xcassets */,
+				CA6ECC404750738166F66376 /* LaunchScreen.storyboard */,
+				CA6ECD85D8730FF4364E2B34 /* AppDelegate.swift */,
+				CA6EC0553B890B597A903A53 /* SwiftRocksFolio.xcdatamodeld */,
+				CA6EC93113E6003D06588C22 /* SceneDelegate.swift */,
+				CA6ECBDB64E38FEA9E22A215 /* ContentView.swift */,
+				CA6ECD271E64E4A0A4A5187C /* Preview Content */,
+				CA6ECDA1F10D7586C284461E /* DataController.swift */,
+			);
+			path = SwiftRocksFolio;
+			sourceTree = "<group>";
+		};
+		CA6ECAE825E5862B9FB2FAC4 = {
+			isa = PBXGroup;
+			children = (
+				CA6ECCD370C131CD2F41E3F2 /* Products */,
+				CA6EC47D5D7703E0E4AE294C /* SwiftRocksFolio */,
+			);
+			sourceTree = "<group>";
+		};
+		CA6ECCD370C131CD2F41E3F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA6ECC96DBED1EFE7400A2D9 /* SwiftRocksFolio.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA6ECD271E64E4A0A4A5187C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CA6EC4BE5CF3DCE1EF7063A4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA6EC66272F28A1B7DD3603A /* SwiftRocksFolio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA6ECBE8E3F6D36EE2F29C41 /* Build configuration list for PBXNativeTarget "SwiftRocksFolio" */;
+			buildPhases = (
+				CA6EC5508BE9160B79D3E085 /* Sources */,
+				CA6EC43E478745836D52B065 /* Frameworks */,
+				CA6EC0C6221BC187818555E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftRocksFolio;
+			productName = SwiftRocksFolio;
+			productReference = CA6ECC96DBED1EFE7400A2D9 /* SwiftRocksFolio.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA6ECCE5BB55992A2428705B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = IoSmit;
+			};
+			buildConfigurationList = CA6EC24803E3772582C1C279 /* Build configuration list for PBXProject "SwiftRocksFolio" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = CA6ECAE825E5862B9FB2FAC4;
+			productRefGroup = CA6ECCD370C131CD2F41E3F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA6EC66272F28A1B7DD3603A /* SwiftRocksFolio */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA6EC0C6221BC187818555E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA6ECCC5ECB673097E10C011 /* Assets.xcassets in Resources */,
+				CA6EC9FA3E1D7AD71267FF7A /* LaunchScreen.storyboard in Resources */,
+				CA6ECE96BA0A4BA9685AE1AE /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA6EC5508BE9160B79D3E085 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA6EC83D1A63B83D7CE9B166 /* AppDelegate.swift in Sources */,
+				CA6EC2D7FFD82E58F5B3B08E /* SwiftRocksFolio.xcdatamodeld in Sources */,
+				CA6ECCE1CD948BECCAC28DF9 /* SceneDelegate.swift in Sources */,
+				CA6EC95ECC75B96565628F1F /* ContentView.swift in Sources */,
+				CA6EC17F611282FFB92C8BD8 /* DataController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CA6ECC404750738166F66376 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA6EC10B06B2DBAF09FD8C23 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA6EC045D4BCE59D24E9B21C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftRocksFolio/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SwiftRocksFolio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.smital.SwiftRocksFolio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA6EC0DF4A4D73B241AB6E75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftRocksFolio/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SwiftRocksFolio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.smital.SwiftRocksFolio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CA6EC9781F1FA08822A0E486 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA6ECCE170326C04012BBE02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA6EC24803E3772582C1C279 /* Build configuration list for PBXProject "SwiftRocksFolio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA6ECCE170326C04012BBE02 /* Debug */,
+				CA6EC9781F1FA08822A0E486 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA6ECBE8E3F6D36EE2F29C41 /* Build configuration list for PBXNativeTarget "SwiftRocksFolio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA6EC045D4BCE59D24E9B21C /* Debug */,
+				CA6EC0DF4A4D73B241AB6E75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CA6EC0553B890B597A903A53 /* SwiftRocksFolio.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CA6EC4DA758C763E68D42193 /* SwiftRocksFolio.xcdatamodel */,
+			);
+			currentVersion = CA6EC4DA758C763E68D42193 /* SwiftRocksFolio.xcdatamodel */;
+			path = SwiftRocksFolio.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CA6ECCE5BB55992A2428705B /* Project object */;
+}
