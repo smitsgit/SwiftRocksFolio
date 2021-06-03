@@ -24,9 +24,9 @@ struct ProjectsView: View {
         NavigationView {
             List {
                 ForEach(projects.wrappedValue, id: \.self) { project in
-                    Section(header: Text(project.title ?? "")) {
-                        ForEach(project.items?.allObjects as? [Item] ?? [], id:\.self) { item in
-                            Text(item.title ?? "None")
+                    Section(header: Text(project.projectTitle)) {
+                        ForEach(project.projectItems, id:\.self) { item in
+                            Text(item.itemTitle)
                         }
                     }
                 }
